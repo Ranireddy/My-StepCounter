@@ -26,22 +26,142 @@ namespace StepCounter
 		
 		public static void UpdateIdValues()
 		{
+			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::StepCounter.Resource.Color.hockeyapp_background_header;
+			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::StepCounter.Resource.Color.hockeyapp_background_light;
+			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::StepCounter.Resource.Color.hockeyapp_background_white;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background = global::StepCounter.Resource.Color.hockeyapp_button_background;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_pressed = global::StepCounter.Resource.Color.hockeyapp_button_background_pressed;
+			global::HockeyApp.Resource.Color.hockeyapp_button_background_selected = global::StepCounter.Resource.Color.hockeyapp_button_background_selected;
+			global::HockeyApp.Resource.Color.hockeyapp_text_black = global::StepCounter.Resource.Color.hockeyapp_text_black;
+			global::HockeyApp.Resource.Color.hockeyapp_text_light = global::StepCounter.Resource.Color.hockeyapp_text_light;
+			global::HockeyApp.Resource.Color.hockeyapp_text_normal = global::StepCounter.Resource.Color.hockeyapp_text_normal;
+			global::HockeyApp.Resource.Color.hockeyapp_text_white = global::StepCounter.Resource.Color.hockeyapp_text_white;
+			global::HockeyApp.Resource.Drawable.hockeyapp_btn_background = global::StepCounter.Resource.Drawable.hockeyapp_btn_background;
+			global::HockeyApp.Resource.Id.button_add_response = global::StepCounter.Resource.Id.button_add_response;
+			global::HockeyApp.Resource.Id.button_attachment = global::StepCounter.Resource.Id.button_attachment;
+			global::HockeyApp.Resource.Id.button_login = global::StepCounter.Resource.Id.button_login;
+			global::HockeyApp.Resource.Id.button_refresh = global::StepCounter.Resource.Id.button_refresh;
+			global::HockeyApp.Resource.Id.button_send = global::StepCounter.Resource.Id.button_send;
+			global::HockeyApp.Resource.Id.button_update = global::StepCounter.Resource.Id.button_update;
+			global::HockeyApp.Resource.Id.input_email = global::StepCounter.Resource.Id.input_email;
+			global::HockeyApp.Resource.Id.input_message = global::StepCounter.Resource.Id.input_message;
+			global::HockeyApp.Resource.Id.input_name = global::StepCounter.Resource.Id.input_name;
+			global::HockeyApp.Resource.Id.input_password = global::StepCounter.Resource.Id.input_password;
+			global::HockeyApp.Resource.Id.input_subject = global::StepCounter.Resource.Id.input_subject;
+			global::HockeyApp.Resource.Id.label_author = global::StepCounter.Resource.Id.label_author;
+			global::HockeyApp.Resource.Id.label_date = global::StepCounter.Resource.Id.label_date;
+			global::HockeyApp.Resource.Id.label_last_updated = global::StepCounter.Resource.Id.label_last_updated;
+			global::HockeyApp.Resource.Id.label_message = global::StepCounter.Resource.Id.label_message;
+			global::HockeyApp.Resource.Id.label_text = global::StepCounter.Resource.Id.label_text;
+			global::HockeyApp.Resource.Id.label_title = global::StepCounter.Resource.Id.label_title;
+			global::HockeyApp.Resource.Id.label_version = global::StepCounter.Resource.Id.label_version;
+			global::HockeyApp.Resource.Id.list_attachments = global::StepCounter.Resource.Id.list_attachments;
+			global::HockeyApp.Resource.Id.list_feedback_messages = global::StepCounter.Resource.Id.list_feedback_messages;
+			global::HockeyApp.Resource.Id.text_headline = global::StepCounter.Resource.Id.text_headline;
+			global::HockeyApp.Resource.Id.view_header = global::StepCounter.Resource.Id.view_header;
+			global::HockeyApp.Resource.Id.web_update_details = global::StepCounter.Resource.Id.web_update_details;
+			global::HockeyApp.Resource.Id.wrapper_attachments = global::StepCounter.Resource.Id.wrapper_attachments;
+			global::HockeyApp.Resource.Id.wrapper_feedback = global::StepCounter.Resource.Id.wrapper_feedback;
+			global::HockeyApp.Resource.Id.wrapper_feedback_scroll = global::StepCounter.Resource.Id.wrapper_feedback_scroll;
+			global::HockeyApp.Resource.Id.wrapper_messages = global::StepCounter.Resource.Id.wrapper_messages;
+			global::HockeyApp.Resource.Id.wrapper_messages_buttons = global::StepCounter.Resource.Id.wrapper_messages_buttons;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_expiry_info = global::StepCounter.Resource.Layout.hockeyapp_activity_expiry_info;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_feedback = global::StepCounter.Resource.Layout.hockeyapp_activity_feedback;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_login = global::StepCounter.Resource.Layout.hockeyapp_activity_login;
+			global::HockeyApp.Resource.Layout.hockeyapp_activity_update = global::StepCounter.Resource.Layout.hockeyapp_activity_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_fragment_update = global::StepCounter.Resource.Layout.hockeyapp_fragment_update;
+			global::HockeyApp.Resource.Layout.hockeyapp_view_feedback_message = global::StepCounter.Resource.Layout.hockeyapp_view_feedback_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_app_name_fallback = global::StepCounter.Resource.String.hockeyapp_crash_dialog_app_name_fallback;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_message = global::StepCounter.Resource.String.hockeyapp_crash_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_crash_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_neutral_button = global::StepCounter.Resource.String.hockeyapp_crash_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_crash_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_title = global::StepCounter.Resource.String.hockeyapp_crash_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_message = global::StepCounter.Resource.String.hockeyapp_dialog_error_message;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_error_title = global::StepCounter.Resource.String.hockeyapp_dialog_error_title;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_message = global::StepCounter.Resource.String.hockeyapp_download_failed_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_download_failed_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_download_failed_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_title = global::StepCounter.Resource.String.hockeyapp_download_failed_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_error_no_network_message = global::StepCounter.Resource.String.hockeyapp_error_no_network_message;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_text = global::StepCounter.Resource.String.hockeyapp_expiry_info_text;
+			global::HockeyApp.Resource.String.hockeyapp_expiry_info_title = global::StepCounter.Resource.String.hockeyapp_expiry_info_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_file = global::StepCounter.Resource.String.hockeyapp_feedback_attach_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_picture = global::StepCounter.Resource.String.hockeyapp_feedback_attach_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_button_text = global::StepCounter.Resource.String.hockeyapp_feedback_attachment_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_error = global::StepCounter.Resource.String.hockeyapp_feedback_attachment_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_loading = global::StepCounter.Resource.String.hockeyapp_feedback_attachment_loading;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_email_hint = global::StepCounter.Resource.String.hockeyapp_feedback_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_text = global::StepCounter.Resource.String.hockeyapp_feedback_failed_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_title = global::StepCounter.Resource.String.hockeyapp_feedback_failed_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_fetching_feedback_text = global::StepCounter.Resource.String.hockeyapp_feedback_fetching_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_generic_error = global::StepCounter.Resource.String.hockeyapp_feedback_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_last_updated_text = global::StepCounter.Resource.String.hockeyapp_feedback_last_updated_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_max_attachments_allowed = global::StepCounter.Resource.String.hockeyapp_feedback_max_attachments_allowed;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_message_hint = global::StepCounter.Resource.String.hockeyapp_feedback_message_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_name_hint = global::StepCounter.Resource.String.hockeyapp_feedback_name_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_refresh_button_text = global::StepCounter.Resource.String.hockeyapp_feedback_refresh_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_response_button_text = global::StepCounter.Resource.String.hockeyapp_feedback_response_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_file = global::StepCounter.Resource.String.hockeyapp_feedback_select_file;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_select_picture = global::StepCounter.Resource.String.hockeyapp_feedback_select_picture;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_button_text = global::StepCounter.Resource.String.hockeyapp_feedback_send_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_generic_error = global::StepCounter.Resource.String.hockeyapp_feedback_send_generic_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_send_network_error = global::StepCounter.Resource.String.hockeyapp_feedback_send_network_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_sending_feedback_text = global::StepCounter.Resource.String.hockeyapp_feedback_sending_feedback_text;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_subject_hint = global::StepCounter.Resource.String.hockeyapp_feedback_subject_hint;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_title = global::StepCounter.Resource.String.hockeyapp_feedback_title;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_empty = global::StepCounter.Resource.String.hockeyapp_feedback_validate_email_empty;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_error = global::StepCounter.Resource.String.hockeyapp_feedback_validate_email_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_name_error = global::StepCounter.Resource.String.hockeyapp_feedback_validate_name_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_subject_error = global::StepCounter.Resource.String.hockeyapp_feedback_validate_subject_error;
+			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_text_error = global::StepCounter.Resource.String.hockeyapp_feedback_validate_text_error;
+			global::HockeyApp.Resource.String.hockeyapp_login_email_hint = global::StepCounter.Resource.String.hockeyapp_login_email_hint;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text = global::StepCounter.Resource.String.hockeyapp_login_headline_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_headline_text_email_only = global::StepCounter.Resource.String.hockeyapp_login_headline_text_email_only;
+			global::HockeyApp.Resource.String.hockeyapp_login_login_button_text = global::StepCounter.Resource.String.hockeyapp_login_login_button_text;
+			global::HockeyApp.Resource.String.hockeyapp_login_missing_credentials_toast = global::StepCounter.Resource.String.hockeyapp_login_missing_credentials_toast;
+			global::HockeyApp.Resource.String.hockeyapp_login_password_hint = global::StepCounter.Resource.String.hockeyapp_login_password_hint;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_message = global::StepCounter.Resource.String.hockeyapp_paint_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_paint_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_neutral_button = global::StepCounter.Resource.String.hockeyapp_paint_dialog_neutral_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_paint_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_paint_indicator_toast = global::StepCounter.Resource.String.hockeyapp_paint_indicator_toast;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_clear = global::StepCounter.Resource.String.hockeyapp_paint_menu_clear;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_save = global::StepCounter.Resource.String.hockeyapp_paint_menu_save;
+			global::HockeyApp.Resource.String.hockeyapp_paint_menu_undo = global::StepCounter.Resource.String.hockeyapp_paint_menu_undo;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_permission_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_permission_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_message = global::StepCounter.Resource.String.hockeyapp_permission_update_message;
+			global::HockeyApp.Resource.String.hockeyapp_permission_update_title = global::StepCounter.Resource.String.hockeyapp_permission_update_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_button = global::StepCounter.Resource.String.hockeyapp_update_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_message = global::StepCounter.Resource.String.hockeyapp_update_dialog_message;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_negative_button = global::StepCounter.Resource.String.hockeyapp_update_dialog_negative_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_positive_button = global::StepCounter.Resource.String.hockeyapp_update_dialog_positive_button;
+			global::HockeyApp.Resource.String.hockeyapp_update_dialog_title = global::StepCounter.Resource.String.hockeyapp_update_dialog_title;
+			global::HockeyApp.Resource.String.hockeyapp_update_mandatory_toast = global::StepCounter.Resource.String.hockeyapp_update_mandatory_toast;
+			global::HockeyApp.Resource.String.hockeyapp_update_version_details_label = global::StepCounter.Resource.String.hockeyapp_update_version_details_label;
+			global::HockeyApp.Resource.String.library_name = global::StepCounter.Resource.String.library_name;
+			global::HockeyApp.Resource.Style.HockeyApp_ButtonStyle = global::StepCounter.Resource.Style.HockeyApp_ButtonStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_EditTextStyle = global::StepCounter.Resource.Style.HockeyApp_EditTextStyle;
+			global::HockeyApp.Resource.Style.HockeyApp_SingleLineInputStyle = global::StepCounter.Resource.Style.HockeyApp_SingleLineInputStyle;
 		}
 		
 		public partial class Array
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int cadence_names = 2131034112;
+			// aapt resource value: 0x7f080000
+			public const int cadence_names = 2131230720;
 			
-			// aapt resource value: 0x7f050001
-			public const int cadence_names_km = 2131034113;
+			// aapt resource value: 0x7f080001
+			public const int cadence_names_km = 2131230721;
 			
-			// aapt resource value: 0x7f050002
-			public const int cadence_values = 2131034114;
+			// aapt resource value: 0x7f080002
+			public const int cadence_values = 2131230722;
 			
-			// aapt resource value: 0x7f050003
-			public const int history_spinner = 2131034115;
+			// aapt resource value: 0x7f080003
+			public const int history_spinner = 2131230723;
 			
 			static Array()
 			{
@@ -69,17 +189,47 @@ namespace StepCounter
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int ab_white = 2131099649;
+			// aapt resource value: 0x7f07000b
+			public const int ab_white = 2131165195;
 			
-			// aapt resource value: 0x7f060003
-			public const int blue_background = 2131099651;
+			// aapt resource value: 0x7f07000d
+			public const int blue_background = 2131165197;
 			
-			// aapt resource value: 0x7f060002
-			public const int red_background = 2131099650;
+			// aapt resource value: 0x7f070000
+			public const int hockeyapp_background_header = 2131165184;
 			
-			// aapt resource value: 0x7f060000
-			public const int white = 2131099648;
+			// aapt resource value: 0x7f070001
+			public const int hockeyapp_background_light = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int hockeyapp_background_white = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int hockeyapp_button_background = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int hockeyapp_button_background_pressed = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int hockeyapp_button_background_selected = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int hockeyapp_text_black = 2131165190;
+			
+			// aapt resource value: 0x7f070007
+			public const int hockeyapp_text_light = 2131165191;
+			
+			// aapt resource value: 0x7f070008
+			public const int hockeyapp_text_normal = 2131165192;
+			
+			// aapt resource value: 0x7f070009
+			public const int hockeyapp_text_white = 2131165193;
+			
+			// aapt resource value: 0x7f07000c
+			public const int red_background = 2131165196;
+			
+			// aapt resource value: 0x7f07000a
+			public const int white = 2131165194;
 			
 			static Color()
 			{
@@ -94,11 +244,11 @@ namespace StepCounter
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int paddingBottom = 2131165185;
+			// aapt resource value: 0x7f090001
+			public const int paddingBottom = 2131296257;
 			
-			// aapt resource value: 0x7f070000
-			public const int standard_padding = 2131165184;
+			// aapt resource value: 0x7f090000
+			public const int standard_padding = 2131296256;
 			
 			static Dimension()
 			{
@@ -114,25 +264,28 @@ namespace StepCounter
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int ic_action_social_share = 2130837504;
+			public const int hockeyapp_btn_background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int ic_highscore = 2130837505;
+			public const int ic_action_social_share = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int ic_launcher = 2130837506;
+			public const int ic_highscore = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int ic_notification = 2130837507;
+			public const int ic_launcher = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int ic_unsupporteddevice = 2130837508;
+			public const int ic_notification = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int ic_warning = 2130837509;
+			public const int ic_unsupporteddevice = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int wear_background = 2130837510;
+			public const int ic_warning = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int wear_background = 2130837511;
 			
 			static Drawable()
 			{
@@ -147,77 +300,161 @@ namespace StepCounter
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0013
-			public const int RelativeLayout1 = 2131427347;
+			// aapt resource value: 0x7f0b002f
+			public const int RelativeLayout1 = 2131427375;
+			
+			// aapt resource value: 0x7f0b000f
+			public const int button_add_response = 2131427343;
+			
+			// aapt resource value: 0x7f0b000a
+			public const int button_attachment = 2131427338;
+			
+			// aapt resource value: 0x7f0b0014
+			public const int button_login = 2131427348;
 			
 			// aapt resource value: 0x7f0b0010
-			public const int calories = 2131427344;
+			public const int button_refresh = 2131427344;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int completed = 2131427330;
+			// aapt resource value: 0x7f0b000b
+			public const int button_send = 2131427339;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int counter_layout = 2131427340;
+			// aapt resource value: 0x7f0b0018
+			public const int button_update = 2131427352;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int day = 2131427332;
+			// aapt resource value: 0x7f0b002c
+			public const int calories = 2131427372;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int distance = 2131427346;
+			// aapt resource value: 0x7f0b001e
+			public const int completed = 2131427358;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int counter_layout = 2131427368;
+			
+			// aapt resource value: 0x7f0b0020
+			public const int day = 2131427360;
+			
+			// aapt resource value: 0x7f0b002e
+			public const int distance = 2131427374;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int fragment_host = 2131427329;
 			
+			// aapt resource value: 0x7f0b0021
+			public const int high_score = 2131427361;
+			
+			// aapt resource value: 0x7f0b0006
+			public const int input_email = 2131427334;
+			
+			// aapt resource value: 0x7f0b0008
+			public const int input_message = 2131427336;
+			
 			// aapt resource value: 0x7f0b0005
-			public const int high_score = 2131427333;
+			public const int input_name = 2131427333;
+			
+			// aapt resource value: 0x7f0b0013
+			public const int input_password = 2131427347;
+			
+			// aapt resource value: 0x7f0b0007
+			public const int input_subject = 2131427335;
+			
+			// aapt resource value: 0x7f0b001a
+			public const int label_author = 2131427354;
+			
+			// aapt resource value: 0x7f0b001b
+			public const int label_date = 2131427355;
+			
+			// aapt resource value: 0x7f0b000d
+			public const int label_last_updated = 2131427341;
+			
+			// aapt resource value: 0x7f0b0002
+			public const int label_message = 2131427330;
+			
+			// aapt resource value: 0x7f0b001c
+			public const int label_text = 2131427356;
+			
+			// aapt resource value: 0x7f0b0016
+			public const int label_title = 2131427350;
+			
+			// aapt resource value: 0x7f0b0017
+			public const int label_version = 2131427351;
+			
+			// aapt resource value: 0x7f0b001d
+			public const int list_attachments = 2131427357;
+			
+			// aapt resource value: 0x7f0b0011
+			public const int list_feedback_messages = 2131427345;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int main_layout = 2131427328;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int menu_history = 2131427350;
+			// aapt resource value: 0x7f0b0032
+			public const int menu_history = 2131427378;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int menu_settings = 2131427351;
+			// aapt resource value: 0x7f0b0033
+			public const int menu_settings = 2131427379;
+			
+			// aapt resource value: 0x7f0b0031
+			public const int menu_share = 2131427377;
+			
+			// aapt resource value: 0x7f0b0025
+			public const int no_sensor_box = 2131427365;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int no_sensor_image = 2131427366;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int no_step_sensor = 2131427367;
+			
+			// aapt resource value: 0x7f0b002b
+			public const int percentage = 2131427371;
+			
+			// aapt resource value: 0x7f0b0023
+			public const int progressView = 2131427363;
+			
+			// aapt resource value: 0x7f0b001f
+			public const int remaining = 2131427359;
+			
+			// aapt resource value: 0x7f0b0030
+			public const int step_count = 2131427376;
+			
+			// aapt resource value: 0x7f0b002a
+			public const int stepcount = 2131427370;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int steps = 2131427362;
+			
+			// aapt resource value: 0x7f0b0012
+			public const int text_headline = 2131427346;
+			
+			// aapt resource value: 0x7f0b0029
+			public const int today = 2131427369;
+			
+			// aapt resource value: 0x7f0b0024
+			public const int top_layer = 2131427364;
 			
 			// aapt resource value: 0x7f0b0015
-			public const int menu_share = 2131427349;
+			public const int view_header = 2131427349;
+			
+			// aapt resource value: 0x7f0b002d
+			public const int warning = 2131427373;
+			
+			// aapt resource value: 0x7f0b0019
+			public const int web_update_details = 2131427353;
 			
 			// aapt resource value: 0x7f0b0009
-			public const int no_sensor_box = 2131427337;
+			public const int wrapper_attachments = 2131427337;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int no_sensor_image = 2131427338;
-			
-			// aapt resource value: 0x7f0b000b
-			public const int no_step_sensor = 2131427339;
-			
-			// aapt resource value: 0x7f0b000f
-			public const int percentage = 2131427343;
-			
-			// aapt resource value: 0x7f0b0007
-			public const int progressView = 2131427335;
+			// aapt resource value: 0x7f0b0004
+			public const int wrapper_feedback = 2131427332;
 			
 			// aapt resource value: 0x7f0b0003
-			public const int remaining = 2131427331;
+			public const int wrapper_feedback_scroll = 2131427331;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int step_count = 2131427348;
+			// aapt resource value: 0x7f0b000c
+			public const int wrapper_messages = 2131427340;
 			
 			// aapt resource value: 0x7f0b000e
-			public const int stepcount = 2131427342;
-			
-			// aapt resource value: 0x7f0b0006
-			public const int steps = 2131427334;
-			
-			// aapt resource value: 0x7f0b000d
-			public const int today = 2131427341;
-			
-			// aapt resource value: 0x7f0b0008
-			public const int top_layer = 2131427336;
-			
-			// aapt resource value: 0x7f0b0011
-			public const int warning = 2131427345;
+			public const int wrapper_messages_buttons = 2131427342;
 			
 			static Id()
 			{
@@ -236,19 +473,37 @@ namespace StepCounter
 			public const int history = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int item_history = 2130903041;
+			public const int hockeyapp_activity_expiry_info = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int main = 2130903042;
+			public const int hockeyapp_activity_feedback = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int simple_spinner_item_1 = 2130903043;
+			public const int hockeyapp_activity_login = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int simple_spinner_item_2 = 2130903044;
+			public const int hockeyapp_activity_update = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int step_entry = 2130903045;
+			public const int hockeyapp_fragment_update = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int hockeyapp_view_feedback_message = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int item_history = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int main = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int simple_spinner_item_1 = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int simple_spinner_item_2 = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int step_entry = 2130903051;
 			
 			static Layout()
 			{
@@ -282,224 +537,440 @@ namespace StepCounter
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080002
-			public const int about = 2131230722;
+			// aapt resource value: 0x7f05004a
+			public const int about = 2131034186;
 			
-			// aapt resource value: 0x7f080003
-			public const int about_title = 2131230723;
+			// aapt resource value: 0x7f05004b
+			public const int about_title = 2131034187;
 			
-			// aapt resource value: 0x7f080000
-			public const int app_name = 2131230720;
+			// aapt resource value: 0x7f050048
+			public const int app_name = 2131034184;
 			
-			// aapt resource value: 0x7f08003a
-			public const int awesome = 2131230778;
+			// aapt resource value: 0x7f050082
+			public const int awesome = 2131034242;
 			
-			// aapt resource value: 0x7f080038
-			public const int awesome_title = 2131230776;
+			// aapt resource value: 0x7f050080
+			public const int awesome_title = 2131034240;
 			
-			// aapt resource value: 0x7f080022
-			public const int cadence = 2131230754;
+			// aapt resource value: 0x7f05006a
+			public const int cadence = 2131034218;
 			
-			// aapt resource value: 0x7f080023
-			public const int cadence0 = 2131230755;
+			// aapt resource value: 0x7f05006b
+			public const int cadence0 = 2131034219;
 			
-			// aapt resource value: 0x7f08002a
-			public const int cadence0_km = 2131230762;
+			// aapt resource value: 0x7f050072
+			public const int cadence0_km = 2131034226;
 			
-			// aapt resource value: 0x7f080024
-			public const int cadence1 = 2131230756;
+			// aapt resource value: 0x7f05006c
+			public const int cadence1 = 2131034220;
 			
-			// aapt resource value: 0x7f08002b
-			public const int cadence1_km = 2131230763;
+			// aapt resource value: 0x7f050073
+			public const int cadence1_km = 2131034227;
 			
-			// aapt resource value: 0x7f080025
-			public const int cadence2 = 2131230757;
+			// aapt resource value: 0x7f05006d
+			public const int cadence2 = 2131034221;
 			
-			// aapt resource value: 0x7f08002c
-			public const int cadence2_km = 2131230764;
+			// aapt resource value: 0x7f050074
+			public const int cadence2_km = 2131034228;
 			
-			// aapt resource value: 0x7f080026
-			public const int cadence3 = 2131230758;
+			// aapt resource value: 0x7f05006e
+			public const int cadence3 = 2131034222;
 			
-			// aapt resource value: 0x7f08002d
-			public const int cadence3_km = 2131230765;
+			// aapt resource value: 0x7f050075
+			public const int cadence3_km = 2131034229;
 			
-			// aapt resource value: 0x7f080027
-			public const int cadence4 = 2131230759;
+			// aapt resource value: 0x7f05006f
+			public const int cadence4 = 2131034223;
 			
-			// aapt resource value: 0x7f08002e
-			public const int cadence4_km = 2131230766;
+			// aapt resource value: 0x7f050076
+			public const int cadence4_km = 2131034230;
 			
-			// aapt resource value: 0x7f080028
-			public const int cadence5 = 2131230760;
+			// aapt resource value: 0x7f050070
+			public const int cadence5 = 2131034224;
 			
-			// aapt resource value: 0x7f08002f
-			public const int cadence5_km = 2131230767;
+			// aapt resource value: 0x7f050077
+			public const int cadence5_km = 2131034231;
 			
-			// aapt resource value: 0x7f080029
-			public const int cadence6 = 2131230761;
+			// aapt resource value: 0x7f050071
+			public const int cadence6 = 2131034225;
 			
-			// aapt resource value: 0x7f080030
-			public const int cadence6_km = 2131230768;
+			// aapt resource value: 0x7f050078
+			public const int cadence6_km = 2131034232;
 			
-			// aapt resource value: 0x7f08000f
-			public const int calories = 2131230735;
+			// aapt resource value: 0x7f050057
+			public const int calories = 2131034199;
 			
-			// aapt resource value: 0x7f080010
-			public const int calories_short = 2131230736;
+			// aapt resource value: 0x7f050058
+			public const int calories_short = 2131034200;
 			
-			// aapt resource value: 0x7f080004
-			public const int category_general_preferences = 2131230724;
+			// aapt resource value: 0x7f05004c
+			public const int category_general_preferences = 2131034188;
 			
-			// aapt resource value: 0x7f080005
-			public const int category_notifications_preferences = 2131230725;
+			// aapt resource value: 0x7f05004d
+			public const int category_notifications_preferences = 2131034189;
 			
-			// aapt resource value: 0x7f08000e
-			public const int completed = 2131230734;
+			// aapt resource value: 0x7f050056
+			public const int completed = 2131034198;
 			
-			// aapt resource value: 0x7f08001d
-			public const int copyright = 2131230749;
+			// aapt resource value: 0x7f050065
+			public const int copyright = 2131034213;
 			
-			// aapt resource value: 0x7f080019
-			public const int created_by = 2131230745;
+			// aapt resource value: 0x7f050061
+			public const int created_by = 2131034209;
 			
-			// aapt resource value: 0x7f08001a
-			public const int created_by_summary = 2131230746;
+			// aapt resource value: 0x7f050062
+			public const int created_by_summary = 2131034210;
 			
-			// aapt resource value: 0x7f08001f
-			public const int created_with = 2131230751;
+			// aapt resource value: 0x7f050067
+			public const int created_with = 2131034215;
 			
-			// aapt resource value: 0x7f080020
-			public const int created_with_summary = 2131230752;
+			// aapt resource value: 0x7f050068
+			public const int created_with_summary = 2131034216;
 			
-			// aapt resource value: 0x7f080041
-			public const int custom_step_goal = 2131230785;
+			// aapt resource value: 0x7f050089
+			public const int custom_step_goal = 2131034249;
 			
-			// aapt resource value: 0x7f080017
-			public const int enhanced = 2131230743;
+			// aapt resource value: 0x7f05005f
+			public const int enhanced = 2131034207;
 			
-			// aapt resource value: 0x7f080018
-			public const int enhanced_summary = 2131230744;
+			// aapt resource value: 0x7f050060
+			public const int enhanced_summary = 2131034208;
 			
-			// aapt resource value: 0x7f080035
-			public const int goal_double = 2131230773;
+			// aapt resource value: 0x7f05007d
+			public const int goal_double = 2131034237;
 			
-			// aapt resource value: 0x7f080034
-			public const int goal_full = 2131230772;
+			// aapt resource value: 0x7f05007c
+			public const int goal_full = 2131034236;
 			
-			// aapt resource value: 0x7f080033
-			public const int goal_half = 2131230771;
+			// aapt resource value: 0x7f05007b
+			public const int goal_half = 2131034235;
 			
-			// aapt resource value: 0x7f080036
-			public const int goal_update = 2131230774;
+			// aapt resource value: 0x7f05007e
+			public const int goal_update = 2131034238;
 			
-			// aapt resource value: 0x7f080048
-			public const int has_been_reset = 2131230792;
+			// aapt resource value: 0x7f050090
+			public const int has_been_reset = 2131034256;
 			
-			// aapt resource value: 0x7f080039
-			public const int high_score = 2131230777;
+			// aapt resource value: 0x7f050081
+			public const int high_score = 2131034241;
 			
-			// aapt resource value: 0x7f080037
-			public const int high_score_title = 2131230775;
+			// aapt resource value: 0x7f05007f
+			public const int high_score_title = 2131034239;
 			
-			// aapt resource value: 0x7f08001b
-			public const int inspired_by = 2131230747;
+			// aapt resource value: 0x7f050001
+			public const int hockeyapp_crash_dialog_app_name_fallback = 2131034113;
 			
-			// aapt resource value: 0x7f08001c
-			public const int inspired_by_summary = 2131230748;
+			// aapt resource value: 0x7f050002
+			public const int hockeyapp_crash_dialog_message = 2131034114;
 			
-			// aapt resource value: 0x7f080012
-			public const int kilometeres = 2131230738;
+			// aapt resource value: 0x7f050003
+			public const int hockeyapp_crash_dialog_negative_button = 2131034115;
 			
-			// aapt resource value: 0x7f080032
-			public const int menu_history = 2131230770;
+			// aapt resource value: 0x7f050004
+			public const int hockeyapp_crash_dialog_neutral_button = 2131034116;
 			
-			// aapt resource value: 0x7f080001
-			public const int menu_settings = 2131230721;
+			// aapt resource value: 0x7f050005
+			public const int hockeyapp_crash_dialog_positive_button = 2131034117;
 			
-			// aapt resource value: 0x7f08003c
-			public const int menu_share = 2131230780;
+			// aapt resource value: 0x7f050006
+			public const int hockeyapp_crash_dialog_title = 2131034118;
 			
-			// aapt resource value: 0x7f080011
-			public const int miles = 2131230737;
+			// aapt resource value: 0x7f050007
+			public const int hockeyapp_dialog_error_message = 2131034119;
 			
-			// aapt resource value: 0x7f080044
-			public const int month = 2131230788;
+			// aapt resource value: 0x7f050008
+			public const int hockeyapp_dialog_error_title = 2131034120;
 			
-			// aapt resource value: 0x7f080031
-			public const int no_history = 2131230769;
+			// aapt resource value: 0x7f050009
+			public const int hockeyapp_dialog_negative_button = 2131034121;
 			
-			// aapt resource value: 0x7f080042
-			public const int no_step_sensor = 2131230786;
+			// aapt resource value: 0x7f05000a
+			public const int hockeyapp_dialog_positive_button = 2131034122;
 			
-			// aapt resource value: 0x7f080008
-			public const int notifications_accumulative = 2131230728;
+			// aapt resource value: 0x7f05000b
+			public const int hockeyapp_download_failed_dialog_message = 2131034123;
 			
-			// aapt resource value: 0x7f080009
-			public const int notifications_accumulative_summary = 2131230729;
+			// aapt resource value: 0x7f05000c
+			public const int hockeyapp_download_failed_dialog_negative_button = 2131034124;
 			
-			// aapt resource value: 0x7f080006
-			public const int notifications_progress = 2131230726;
+			// aapt resource value: 0x7f05000d
+			public const int hockeyapp_download_failed_dialog_positive_button = 2131034125;
 			
-			// aapt resource value: 0x7f080007
-			public const int notifications_progress_summary = 2131230727;
+			// aapt resource value: 0x7f05000e
+			public const int hockeyapp_download_failed_dialog_title = 2131034126;
 			
-			// aapt resource value: 0x7f080021
-			public const int ok = 2131230753;
+			// aapt resource value: 0x7f05000f
+			public const int hockeyapp_error_no_network_message = 2131034127;
 			
-			// aapt resource value: 0x7f08000d
-			public const int percent_complete = 2131230733;
+			// aapt resource value: 0x7f050010
+			public const int hockeyapp_expiry_info_text = 2131034128;
 			
-			// aapt resource value: 0x7f080047
-			public const int reset_count = 2131230791;
+			// aapt resource value: 0x7f050011
+			public const int hockeyapp_expiry_info_title = 2131034129;
 			
-			// aapt resource value: 0x7f080046
-			public const int reset_high_score = 2131230790;
+			// aapt resource value: 0x7f050012
+			public const int hockeyapp_feedback_attach_file = 2131034130;
 			
-			// aapt resource value: 0x7f08003f
-			public const int review_app = 2131230783;
+			// aapt resource value: 0x7f050013
+			public const int hockeyapp_feedback_attach_picture = 2131034131;
 			
-			// aapt resource value: 0x7f080040
-			public const int review_app_summary = 2131230784;
+			// aapt resource value: 0x7f050014
+			public const int hockeyapp_feedback_attachment_button_text = 2131034132;
 			
-			// aapt resource value: 0x7f08003b
-			public const int share_steps_on = 2131230779;
+			// aapt resource value: 0x7f050015
+			public const int hockeyapp_feedback_attachment_error = 2131034133;
 			
-			// aapt resource value: 0x7f08003d
-			public const int share_steps_today = 2131230781;
+			// aapt resource value: 0x7f050016
+			public const int hockeyapp_feedback_attachment_loading = 2131034134;
 			
-			// aapt resource value: 0x7f08003e
-			public const int share_steps_total = 2131230782;
+			// aapt resource value: 0x7f050017
+			public const int hockeyapp_feedback_email_hint = 2131034135;
 			
-			// aapt resource value: 0x7f08000a
-			public const int steps = 2131230730;
+			// aapt resource value: 0x7f050018
+			public const int hockeyapp_feedback_failed_text = 2131034136;
 			
-			// aapt resource value: 0x7f08000b
-			public const int steps_cap = 2131230731;
+			// aapt resource value: 0x7f050019
+			public const int hockeyapp_feedback_failed_title = 2131034137;
 			
-			// aapt resource value: 0x7f08000c
-			public const int today = 2131230732;
+			// aapt resource value: 0x7f05001a
+			public const int hockeyapp_feedback_fetching_feedback_text = 2131034138;
 			
-			// aapt resource value: 0x7f080045
-			public const int total = 2131230789;
+			// aapt resource value: 0x7f05001b
+			public const int hockeyapp_feedback_generic_error = 2131034139;
 			
-			// aapt resource value: 0x7f08001e
-			public const int version = 2131230750;
+			// aapt resource value: 0x7f05001c
+			public const int hockeyapp_feedback_last_updated_text = 2131034140;
 			
-			// aapt resource value: 0x7f080043
-			public const int week = 2131230787;
+			// aapt resource value: 0x7f05001d
+			public const int hockeyapp_feedback_max_attachments_allowed = 2131034141;
 			
-			// aapt resource value: 0x7f080013
-			public const int weight_kg = 2131230739;
+			// aapt resource value: 0x7f05001e
+			public const int hockeyapp_feedback_message_hint = 2131034142;
 			
-			// aapt resource value: 0x7f080014
-			public const int weight_lbs = 2131230740;
+			// aapt resource value: 0x7f05001f
+			public const int hockeyapp_feedback_name_hint = 2131034143;
 			
-			// aapt resource value: 0x7f080015
-			public const int weight_title_kg = 2131230741;
+			// aapt resource value: 0x7f050020
+			public const int hockeyapp_feedback_refresh_button_text = 2131034144;
 			
-			// aapt resource value: 0x7f080016
-			public const int weight_title_lbs = 2131230742;
+			// aapt resource value: 0x7f050021
+			public const int hockeyapp_feedback_response_button_text = 2131034145;
+			
+			// aapt resource value: 0x7f050022
+			public const int hockeyapp_feedback_select_file = 2131034146;
+			
+			// aapt resource value: 0x7f050023
+			public const int hockeyapp_feedback_select_picture = 2131034147;
+			
+			// aapt resource value: 0x7f050024
+			public const int hockeyapp_feedback_send_button_text = 2131034148;
+			
+			// aapt resource value: 0x7f050025
+			public const int hockeyapp_feedback_send_generic_error = 2131034149;
+			
+			// aapt resource value: 0x7f050026
+			public const int hockeyapp_feedback_send_network_error = 2131034150;
+			
+			// aapt resource value: 0x7f050027
+			public const int hockeyapp_feedback_sending_feedback_text = 2131034151;
+			
+			// aapt resource value: 0x7f050028
+			public const int hockeyapp_feedback_subject_hint = 2131034152;
+			
+			// aapt resource value: 0x7f050029
+			public const int hockeyapp_feedback_title = 2131034153;
+			
+			// aapt resource value: 0x7f05002a
+			public const int hockeyapp_feedback_validate_email_empty = 2131034154;
+			
+			// aapt resource value: 0x7f05002b
+			public const int hockeyapp_feedback_validate_email_error = 2131034155;
+			
+			// aapt resource value: 0x7f05002c
+			public const int hockeyapp_feedback_validate_name_error = 2131034156;
+			
+			// aapt resource value: 0x7f05002d
+			public const int hockeyapp_feedback_validate_subject_error = 2131034157;
+			
+			// aapt resource value: 0x7f05002e
+			public const int hockeyapp_feedback_validate_text_error = 2131034158;
+			
+			// aapt resource value: 0x7f05002f
+			public const int hockeyapp_login_email_hint = 2131034159;
+			
+			// aapt resource value: 0x7f050030
+			public const int hockeyapp_login_headline_text = 2131034160;
+			
+			// aapt resource value: 0x7f050031
+			public const int hockeyapp_login_headline_text_email_only = 2131034161;
+			
+			// aapt resource value: 0x7f050032
+			public const int hockeyapp_login_login_button_text = 2131034162;
+			
+			// aapt resource value: 0x7f050033
+			public const int hockeyapp_login_missing_credentials_toast = 2131034163;
+			
+			// aapt resource value: 0x7f050034
+			public const int hockeyapp_login_password_hint = 2131034164;
+			
+			// aapt resource value: 0x7f050035
+			public const int hockeyapp_paint_dialog_message = 2131034165;
+			
+			// aapt resource value: 0x7f050036
+			public const int hockeyapp_paint_dialog_negative_button = 2131034166;
+			
+			// aapt resource value: 0x7f050037
+			public const int hockeyapp_paint_dialog_neutral_button = 2131034167;
+			
+			// aapt resource value: 0x7f050038
+			public const int hockeyapp_paint_dialog_positive_button = 2131034168;
+			
+			// aapt resource value: 0x7f050039
+			public const int hockeyapp_paint_indicator_toast = 2131034169;
+			
+			// aapt resource value: 0x7f05003a
+			public const int hockeyapp_paint_menu_clear = 2131034170;
+			
+			// aapt resource value: 0x7f05003b
+			public const int hockeyapp_paint_menu_save = 2131034171;
+			
+			// aapt resource value: 0x7f05003c
+			public const int hockeyapp_paint_menu_undo = 2131034172;
+			
+			// aapt resource value: 0x7f05003d
+			public const int hockeyapp_permission_dialog_negative_button = 2131034173;
+			
+			// aapt resource value: 0x7f05003e
+			public const int hockeyapp_permission_dialog_positive_button = 2131034174;
+			
+			// aapt resource value: 0x7f05003f
+			public const int hockeyapp_permission_update_message = 2131034175;
+			
+			// aapt resource value: 0x7f050040
+			public const int hockeyapp_permission_update_title = 2131034176;
+			
+			// aapt resource value: 0x7f050041
+			public const int hockeyapp_update_button = 2131034177;
+			
+			// aapt resource value: 0x7f050042
+			public const int hockeyapp_update_dialog_message = 2131034178;
+			
+			// aapt resource value: 0x7f050043
+			public const int hockeyapp_update_dialog_negative_button = 2131034179;
+			
+			// aapt resource value: 0x7f050044
+			public const int hockeyapp_update_dialog_positive_button = 2131034180;
+			
+			// aapt resource value: 0x7f050045
+			public const int hockeyapp_update_dialog_title = 2131034181;
+			
+			// aapt resource value: 0x7f050046
+			public const int hockeyapp_update_mandatory_toast = 2131034182;
+			
+			// aapt resource value: 0x7f050047
+			public const int hockeyapp_update_version_details_label = 2131034183;
+			
+			// aapt resource value: 0x7f050063
+			public const int inspired_by = 2131034211;
+			
+			// aapt resource value: 0x7f050064
+			public const int inspired_by_summary = 2131034212;
+			
+			// aapt resource value: 0x7f05005a
+			public const int kilometeres = 2131034202;
+			
+			// aapt resource value: 0x7f050000
+			public const int library_name = 2131034112;
+			
+			// aapt resource value: 0x7f05007a
+			public const int menu_history = 2131034234;
+			
+			// aapt resource value: 0x7f050049
+			public const int menu_settings = 2131034185;
+			
+			// aapt resource value: 0x7f050084
+			public const int menu_share = 2131034244;
+			
+			// aapt resource value: 0x7f050059
+			public const int miles = 2131034201;
+			
+			// aapt resource value: 0x7f05008c
+			public const int month = 2131034252;
+			
+			// aapt resource value: 0x7f050079
+			public const int no_history = 2131034233;
+			
+			// aapt resource value: 0x7f05008a
+			public const int no_step_sensor = 2131034250;
+			
+			// aapt resource value: 0x7f050050
+			public const int notifications_accumulative = 2131034192;
+			
+			// aapt resource value: 0x7f050051
+			public const int notifications_accumulative_summary = 2131034193;
+			
+			// aapt resource value: 0x7f05004e
+			public const int notifications_progress = 2131034190;
+			
+			// aapt resource value: 0x7f05004f
+			public const int notifications_progress_summary = 2131034191;
+			
+			// aapt resource value: 0x7f050069
+			public const int ok = 2131034217;
+			
+			// aapt resource value: 0x7f050055
+			public const int percent_complete = 2131034197;
+			
+			// aapt resource value: 0x7f05008f
+			public const int reset_count = 2131034255;
+			
+			// aapt resource value: 0x7f05008e
+			public const int reset_high_score = 2131034254;
+			
+			// aapt resource value: 0x7f050087
+			public const int review_app = 2131034247;
+			
+			// aapt resource value: 0x7f050088
+			public const int review_app_summary = 2131034248;
+			
+			// aapt resource value: 0x7f050083
+			public const int share_steps_on = 2131034243;
+			
+			// aapt resource value: 0x7f050085
+			public const int share_steps_today = 2131034245;
+			
+			// aapt resource value: 0x7f050086
+			public const int share_steps_total = 2131034246;
+			
+			// aapt resource value: 0x7f050052
+			public const int steps = 2131034194;
+			
+			// aapt resource value: 0x7f050053
+			public const int steps_cap = 2131034195;
+			
+			// aapt resource value: 0x7f050054
+			public const int today = 2131034196;
+			
+			// aapt resource value: 0x7f05008d
+			public const int total = 2131034253;
+			
+			// aapt resource value: 0x7f050066
+			public const int version = 2131034214;
+			
+			// aapt resource value: 0x7f05008b
+			public const int week = 2131034251;
+			
+			// aapt resource value: 0x7f05005b
+			public const int weight_kg = 2131034203;
+			
+			// aapt resource value: 0x7f05005c
+			public const int weight_lbs = 2131034204;
+			
+			// aapt resource value: 0x7f05005d
+			public const int weight_title_kg = 2131034205;
+			
+			// aapt resource value: 0x7f05005e
+			public const int weight_title_lbs = 2131034206;
 			
 			static String()
 			{
@@ -514,17 +985,26 @@ namespace StepCounter
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f090000
-			public const int MyTheme = 2131296256;
+			// aapt resource value: 0x7f060000
+			public const int HockeyApp_ButtonStyle = 2131099648;
 			
-			// aapt resource value: 0x7f090001
-			public const int MyTheme_ActionBar = 2131296257;
+			// aapt resource value: 0x7f060001
+			public const int HockeyApp_EditTextStyle = 2131099649;
 			
-			// aapt resource value: 0x7f090002
-			public const int MyTheme_ActionBar_TitleTextStyle = 2131296258;
+			// aapt resource value: 0x7f060002
+			public const int HockeyApp_SingleLineInputStyle = 2131099650;
 			
-			// aapt resource value: 0x7f090003
-			public const int ThemeActionBar = 2131296259;
+			// aapt resource value: 0x7f060003
+			public const int MyTheme = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int MyTheme_ActionBar = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int MyTheme_ActionBar_TitleTextStyle = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int ThemeActionBar = 2131099654;
 			
 			static Style()
 			{

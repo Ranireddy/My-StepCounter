@@ -28,7 +28,8 @@ using StepCounter.Controls;
 using Android.Views.Animations;
 using StepCounter.Services;
 using System.Collections.Generic;
-
+using HockeyApp.Android;
+using HockeyApp.Android.Metrics;
 
 namespace StepCounter.Activities
 {
@@ -83,8 +84,11 @@ namespace StepCounter.Activities
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.main);
+            CrashManager.Register(this, "d1612c48bfef451987e864055089b860");
+            MetricsManager.Register(this, Application, "d1612c48bfef451987e864055089b860");
+            CheckForUpdates();
 
-			topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
+            topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
 			handler = new Handler ();
 			if (!Utils.IsKitKatWithStepCounter(PackageManager)) {
 				//no step detector detected :(
@@ -138,7 +142,18 @@ namespace StepCounter.Activities
 		
 		}
 
-		private void StartStepService()
+        private void CheckForUpdates()
+        {
+            // Remove this for store builds!
+            UpdateManager.Register(this, "d1612c48bfef451987e864055089b860");
+        }
+
+        private void UnregisterManagers()
+        {
+            UpdateManager.Unregister();
+        }
+
+        private void StartStepService()
 		{
 
 			try
@@ -225,7 +240,8 @@ namespace StepCounter.Activities
 				UnbindService (serviceConnection);
 				IsBound = false;
 			}
-		}
+            UnregisterManagers();
+        }
 
 		protected override void OnStart ()
 		{
@@ -255,7 +271,8 @@ namespace StepCounter.Activities
 				binder.StepService.PropertyChanged -= HandlePropertyChanged;
 				registered = false;
 			}
-		}
+            UnregisterManagers();
+        }
 
 		protected override void OnResume ()
 		{
