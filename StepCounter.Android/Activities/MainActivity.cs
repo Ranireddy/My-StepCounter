@@ -86,9 +86,10 @@ namespace StepCounter.Activities
 			SetContentView (Resource.Layout.main);
             CrashManager.Register(this, "d1612c48bfef451987e864055089b860");
             MetricsManager.Register(this, Application, "d1612c48bfef451987e864055089b860");
+
             CheckForUpdates();
 
-            topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
+            //topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
 			handler = new Handler ();
 			if (!Utils.IsKitKatWithStepCounter(PackageManager)) {
 				//no step detector detected :(
