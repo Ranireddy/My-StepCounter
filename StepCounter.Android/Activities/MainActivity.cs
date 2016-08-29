@@ -89,7 +89,7 @@ namespace StepCounter.Activities
 
             CheckForUpdates();
 
-            //topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
+            topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
 			handler = new Handler ();
 			if (!Utils.IsKitKatWithStepCounter(PackageManager)) {
 				//no step detector detected :(
@@ -104,7 +104,7 @@ namespace StepCounter.Activities
 				return;
 			}
 
-			stepCount = FindViewById<TextView> (Resource.Id.stepcount);
+			//stepCount = FindViewById<TextView> (Resource.Id.stepcount);
 			calorieCount = FindViewById<TextView> (Resource.Id.calories);
 			distance = FindViewById<TextView> (Resource.Id.distance);
 			percentage = FindViewById<TextView> (Resource.Id.percentage);
