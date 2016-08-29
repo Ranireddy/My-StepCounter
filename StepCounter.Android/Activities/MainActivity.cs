@@ -86,7 +86,8 @@ namespace StepCounter.Activities
 			SetContentView (Resource.Layout.main);
             CrashManager.Register(this, "d1612c48bfef451987e864055089b860");
             MetricsManager.Register(this, Application, "d1612c48bfef451987e864055089b860");
-
+            int zero = 0;
+            
             CheckForUpdates();
 
             topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
@@ -104,7 +105,7 @@ namespace StepCounter.Activities
 				return;
 			}
 
-			//stepCount = FindViewById<TextView> (Resource.Id.stepcount);
+			stepCount = FindViewById<TextView> (Resource.Id.stepcount);
 			calorieCount = FindViewById<TextView> (Resource.Id.calories);
 			distance = FindViewById<TextView> (Resource.Id.distance);
 			percentage = FindViewById<TextView> (Resource.Id.percentage);
@@ -118,8 +119,8 @@ namespace StepCounter.Activities
 			completedString = Resources.GetString (Resource.String.completed);
 
 			this.Title = Utils.DateString;
-
-			handler.PostDelayed (() => UpdateUI (), 500);
+            throw new Exception("CRASHED");
+            handler.PostDelayed (() => UpdateUI (), 500);
 
 			StartStepService ();
 
