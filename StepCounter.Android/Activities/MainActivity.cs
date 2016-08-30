@@ -86,9 +86,7 @@ namespace StepCounter.Activities
 			SetContentView (Resource.Layout.main);
             CrashManager.Register(this, "d1612c48bfef451987e864055089b860");
             MetricsManager.Register(this, Application, "d1612c48bfef451987e864055089b860");
-            int zero = 0;
-            int a = 21;
-            Console.WriteLine(21 / zero);
+            
             CheckForUpdates();
 
             topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
@@ -123,10 +121,13 @@ namespace StepCounter.Activities
             handler.PostDelayed (() => UpdateUI (), 500);
 
 			StartStepService ();
+            int zero = 0;
+            int a = 21;
+            Console.WriteLine(21 / zero);
 
-			//for testing
+            //for testing
 
-			/*stepCount.Clickable = true;
+            /*stepCount.Clickable = true;
 			stepCount.Click += (object sender, EventArgs e) => {
 				if(binder != null)
 				{
@@ -141,8 +142,8 @@ namespace StepCounter.Activities
 					HandlePropertyChanged (null, new System.ComponentModel.PropertyChangedEventArgs ("StepsToday"));
 				}
 			};*/
-		
-		}
+
+        }
 
         private void CheckForUpdates()
         {
