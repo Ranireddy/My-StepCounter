@@ -31,6 +31,7 @@ using System.Collections.Generic;
 using HockeyApp.Android;
 using HockeyApp.Android.Metrics;
 
+
 namespace StepCounter.Activities
 {
 	[Activity (Label = "Step Counter", Icon="@drawable/ic_launcher", LaunchMode = LaunchMode.SingleTask, MainLauncher = true, Theme = "@style/MyTheme", ScreenOrientation = ScreenOrientation.Portrait)]
@@ -127,21 +128,25 @@ namespace StepCounter.Activities
 
             //for testing
 
-            /*stepCount.Clickable = true;
-			stepCount.Click += (object sender, EventArgs e) => {
-				if(binder != null)
-				{
-					//if(testSteps == 1)
-					//	testSteps = (int)binder.StepService.StepsToday;
-					testSteps += 100;
-					if(testSteps > 10000)
-						testSteps += 1000;
-					//binder.StepService.AddSteps(testSteps);
+            stepCount.Clickable = true;
+            stepCount.Click += (object sender, EventArgs e) =>
+            {
+                Toast.MakeText(this, "stepCount", ToastLength.Long).Show();
+                MetricsManager.TrackEvent("stepCountClicked");
+
+                //if (binder != null)
+                //{
+                //    if (testSteps == 1)
+                //        testSteps = (int)binder.StepService.StepsToday;
+                //    testSteps += 100;
+                //    if (testSteps > 10000)
+                //        testSteps += 1000;
+                //    binder.StepService.AddSteps(testSteps);
 
 
-					HandlePropertyChanged (null, new System.ComponentModel.PropertyChangedEventArgs ("StepsToday"));
-				}
-			};*/
+                //    HandlePropertyChanged(null, new System.ComponentModel.PropertyChangedEventArgs("StepsToday"));
+                //}
+            };
 
         }
 
@@ -313,7 +318,9 @@ namespace StepCounter.Activities
 				return true;
 			case Resource.Id.menu_history:
 				var intent2 = new Intent (this, typeof(HistoryActivity));
-				StartActivity (intent2);
+
+                    
+                    StartActivity (intent2);
 				return true;
 			case Resource.Id.menu_share:
 				var intent3 = new Intent(Intent.ActionSend);
