@@ -87,7 +87,8 @@ namespace StepCounter.Activities
             CrashManager.Register(this, "d1612c48bfef451987e864055089b860");
             MetricsManager.Register(this, Application, "d1612c48bfef451987e864055089b860");
             int zero = 0;
-            
+            int a = 21;
+            Console.WriteLine(21 / zero);
             CheckForUpdates();
 
             topLayer = FindViewById<FrameLayout> (Resource.Id.top_layer);
@@ -119,7 +120,6 @@ namespace StepCounter.Activities
 			completedString = Resources.GetString (Resource.String.completed);
 
 			this.Title = Utils.DateString;
-            throw new Exception("CRASHED");
             handler.PostDelayed (() => UpdateUI (), 500);
 
 			StartStepService ();
