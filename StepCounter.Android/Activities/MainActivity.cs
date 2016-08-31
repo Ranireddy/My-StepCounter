@@ -122,9 +122,9 @@ namespace StepCounter.Activities
             handler.PostDelayed (() => UpdateUI (), 500);
 
 			StartStepService ();
-            int zero = 0;
-            int a = 21;
-            Console.WriteLine(21 / zero);
+            //int zero = 0;
+            //int a = 21;
+            //Console.WriteLine(21 / zero);
 
             //for testing
 
